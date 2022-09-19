@@ -1,0 +1,20 @@
+2022-09-16T14:53:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/djstepanovic/public_html/projekat/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php:133
+Stack trace:
+#0 /home/djstepanovic/public_html/projekat/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(120): Essential_Addons_Elementor\Classes\Elements_Manager->get_element_list(false)
+#1 /home/djstepanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load('')
+#2 /home/djstepanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/djstepanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home/djstepanovic/public_html/projekat/wp-includes/script-loader.php(2156): do_action('wp_enqueue_scri...')
+#5 /home/djstepanovic/public_html/projekat/wp-includes/class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 /home/djstepanovic/public_html/projekat/wp-includes/class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 /home/djstepanovic/public_html/projekat/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#8 /home/djstepanovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 /home/djstepanovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#10 /home/djstepanovic/public_html/projekat/wp-settings.php(530): do_action('setup_theme')
+#11 /home/djstepanovic/public_html/projekat/wp-config.php(96): require_once('/home/djstepano...')
+#12 /home/djstepanovic/public_html/projekat/wp-load.php(50): require_once('/home/djstepano...')
+#13 /home/djstepanovic/public_html/projekat/wp-blog-header.php(13): require_once('/home/djstepano...')
+#14 /home/djstepanovic/public_html/projekat/index.php(17): require('/home/djstepano...')
+#15 {main}
+  thrown in /home/djstepanovic/public_html/projekat/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php on line 133
+

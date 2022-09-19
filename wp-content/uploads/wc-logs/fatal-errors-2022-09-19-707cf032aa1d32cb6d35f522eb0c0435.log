@@ -1,0 +1,2 @@
+2022-09-19T07:37:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1392640 bytes) in /home/djstepanovic/public_html/projekat/wp-content/themes/astra/inc/builder/controllers/class-astra-builder-ui-controller.php on line 39
+
